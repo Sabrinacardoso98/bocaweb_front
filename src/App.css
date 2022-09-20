@@ -1,0 +1,61 @@
+.container {
+  min-height: 100vh;
+  margin: 0 auto;
+  background-color:white;
+
+}
+
+.Rodape{
+  width: 100%;
+  height: 100px;
+  background-color:  rgb(218, 72, 14) ;
+
+}
+
+.Cabecalho{
+  width: 100%;
+  height: 90px;
+  background-color: rgb(218, 72, 14);
+  border-style: solid;
+  border-color: rgb(218, 72, 14);
+
+}
+
+.app-logo{
+  height:97px;
+
+
+}
+.Busca{
+ text-align: center;
+ height: 30px;
+
+}
+input{
+  width: 500px;
+border-color: rgb(10, 7, 6);
+
+}
+h1{
+  padding-top: 20px;
+  text-align: center;
+}
+
+.Lista{
+padding: 20px;
+display:grid;
+grid-template-columns: repeat(auto-fil,minmax(280px, 1fr));
+gap: 20px;
+background-color: rgb(236, 199, 185);
+box-shadow: 0 0 10px rgb(180, 59, 11);
+transition: transform 100ms ease-in-out;
+}
+
+#roda{
+
+text-align: center;
+
+}
+.Lista:hover{
+  transform: scale(1.0001);
+}
